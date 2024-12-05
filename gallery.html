@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gallery</title>
+</head>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('background2.jpeg');
+            background-position: center;
+        }  
+         .photo-gallery {
+            display: flex;
+            gap: 50px; 
+            padding: 50px; 
+            max-width: 1000px;
+            text-align: center;
+        }
+
+        .photo-gallery img {
+            width: 300px;
+            height: 450px;
+            object-fit: cover; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+            text-align: center;
+        }
+         .photo{
+            display: flex;
+            gap: 60px; 
+            padding: 60px; 
+            max-width: 1000px;
+            text-align: center;
+        }
+        .photo img {
+            width: 550x;
+            height: 450px;
+            object-fit: cover; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+            text-align: center;
+        }
+    </style>
+<body>
+     <div class="photo-gallery">
+        <img src="myself2.jpg" alt="myself2">
+        <img src="friend2.jpg" alt="friend2">
+        <img src="family3.jpg" alt="family3">
+        <img src="myself3.jpg" alt="myself3">
+    </div>
+     <div style="text-align: center;" class="photo">
+        <img src="intern2.jpg" alt="intern2">
+        <img src="intern1.jpg" alt="intern1">
+    </div>
+     <div style="text-align: center;" class="photo">
+       <img src="friend1.jpg" alt="friend1">
+       <img src="family4.jpg" alt="family4">
+    </div>
+</body>
+</html>
